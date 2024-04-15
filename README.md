@@ -1,45 +1,11 @@
+![active development](https://img.shields.io/badge/active%20dev-yes-brightgreen.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simcard0000/recipes.svg)
+
 # recipes
 🏺 Recipes from my family and other sources.
 
-## What's next
+### About + Credits
+Recipes are written in [CookLang](https://cooklang.org/). Assuming you have [cookcli](https://github.com/cooklang/cookcli) installed: run `cook server` in this directory, then open [http://127.0.0.1:9080](http://127.0.0.1:9080) in your browser.
 
-* Install a syntax highlighting package for your text editor. We have packages for SublimeText and VSCode. See  [cooklang.org](https://cooklang.org/docs/syntax-highlighting/) for full instructions.
-* Add your own recipes. Dive into the Cook ecoysystem and discover how easy it is to write in CookLang. It's the best way to learn the [CookLang syntax](https://cooklang.org/docs/spec/).
-* Check out our [tips and tricks](https://cooklang.org/docs/best-practices/) page.
-
-### Read the recipe
-
-```sh
-cook recipe read "Root Vegetable Tray Bake.cook"
-```
-
-### Create shopping list
-
-```sh
-cook shopping-list \
-  "Neapolitan Pizza.cook" \
-  "Root Vegetable Tray Bake.cook" \
-  "Snack Basket I.cook"
-```
-
-### Run a server
-
-In directory where you have your recipes run:
-
-```sh
-cook server
-```
-
-Then open [http://127.0.0.1:9080](http://127.0.0.1:9080) in your browser.
-
-### Automate something
-
-Explore [the docs](https://cooklang.org/cli/help/), which describe how to use CookCLI's automation tools.
-
-### Customize your instance
-
-Add aisle configuration information to the `config/aisle.conf` file to tailor your shopping list experience.
-
-
-
-
+### To-Do
+- [ ] Add VSCode extension for [CookLang syntax highlighting](https://cooklang.org/docs/syntax-highlighting/) and an alias for the `cook` command to [dotfiles](https://github.com/simcard0000/dotfiles).
