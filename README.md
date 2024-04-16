@@ -8,3 +8,4 @@ Recipes are written in [CookLang](https://cooklang.org/). Assuming you have [coo
 
 ### To-Do
 - [ ] Add VSCode extension for [CookLang syntax highlighting](https://cooklang.org/docs/syntax-highlighting/) and an alias for the `cook` command to [dotfiles](https://github.com/simcard0000/dotfiles).
+- [ ] Upcoming recipes: 🥣 Papa's Kheer, 🍰 Mama's Carrot Cake, 🍪 Mama's Blueberry Cookies, 🥖 Mama's Cheese Biscuits, 🍯 Mama's Suji Halwa
